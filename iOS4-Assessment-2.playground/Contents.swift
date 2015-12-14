@@ -41,7 +41,7 @@ print("Hello \(name)")
 
 // 9. Write a multiline comment explaining the
 //    difference between ints, floats, and doubles
-/* int can only contain integer values, i.e. numbers with no decimals
+/* int is a whole number with no fractional component i.e. decimal
 float is a 32-bit floating point number that has less precision than a double, and has as little as 6 decimals
 double is a 64-bit floating point number that has more precision than a float and has a precision at least 15 decimals  */
 

@@ -57,12 +57,12 @@ var religion:String?
 
 // 12. Declare an optional variable for an hourly rate
 //     and set it equal to a dollar and cents amount
-var hourlyRate:String? = "$10.50"
+var hourlyRate:Float? = 10.25
 
 // 13. Print out the hourly rate to the console using
 //     String interpolation, making sure it does not 
 //     show "Optional(__)" in the output.
-print("The hourly rate is \(hourlyRate!)")
+print("The hourly rate is $\(hourlyRate!)")
 
 // 14. Using the variable from #3, write a conditional
 //     that prints "Hello!" to the console if it is day
